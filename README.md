@@ -70,7 +70,7 @@ It is possible to configure the behavior of this software using the different op
 
   - The `gs_dir` and `sys_dir` options allow to select folders.
   
-  - `Verbose` and `quiet` options allow to control the verbosity level of the software.
+  - `Verbose` option allow to control the verbosity level.
 
 
 The user can select the different options using the command line:
