@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Marcos.
+Apellidos: Ponce Nuñez.
+NHC: 3789367.
+NASS:36 27384902 09.
+Domicilio: Av. Miguel Hernandez 16.
+Localidad/ Provincia: Madrid.
+CP: 28028.
+Datos asistenciales.
+Fecha de nacimiento: 28/05/1982.
+País: España.
+Edad: 36 años Sexo: H.
+Fecha de Ingreso: 07/06/2018.
+Médico: Miguel Álvarez Múgica  NºCol: 28 28 90932.
+Informe clínico del paciente: Varón de 36 años, sin antecedentes personales de interés, que en ecografía realizada por dolor tipo cólico sobre fosa renal derecha, se informó como una masa intrarrenal de 8 - 10 cm con material ecogénico en su interior, situada en polo inferior de riñón derecho, sugiriendo un quiste renal complicado. En TC realizado posteriormente, se informó como masa sólida en polo inferior de riñón derecho de 10 cm de diámetro máximo, que condicionaba compresión de la vía excretora del mismo, sin evidencia de trombo tumoral en vena renal ni en cava, sugestiva de hipernefroma. Se le realizó una Gammagrafía ósea con Tc99m-MDP sin observarse acúmulos oseos patológicos. 
+Con los datos obtenidos se realizó un nefrectomía radical derecha, evidenciando como hallazgo intraoperatorio, una masa adherida a polo inferior de riñón derecho. (El tumor y el riñón aunque próximos, a la disección resultaron claramente independientes).
+El informe anatomo-patológico de la pieza resultó de Tumor fibroso solitario. El tumor se encontraba bien delimitado aunque no encapsulado, sin infiltrar el riñón ni los vasos renales que se encontraban desplazados por la gran masa tumoral. El estudio inmunohistoquímico, demostró positividad para el CD34, CD99 y Vimentina, mientras que resultó negativo para la Desmina, la Proteina S-100, y la CAM5.2.
+El paciente fue intervenido en noviembre del 2001. Desde entonces sigue controles ambulatorios en nuestra consulta con ecografias semestrales y TC anuales, sin presentar recidivas del mismo.
+Remitido por:Dr. Miguel Álvarez Múgica Servicio de Urología Hospital Universitario La Paz. Madrid. (España). malvarez79@mixmail.com
+]]></TEXT>
+  <TAGS>
+    <NAME id="T2" start="29" end="35" text="Marcos" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T3" start="111" end="117" text="Miguel" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T1" start="118" end="127" text="Hernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <LOCATION id="T8" start="154" end="160" text="Madrid" TYPE="TERRITORIO" comment=""/>
+    <NAME id="T4" start="302" end="308" text="Miguel" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T5" start="1906" end="1912" text="Miguel" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <LOCATION id="T7" start="1949" end="1978" text="Hospital Universitario La Paz" TYPE="HOSPITAL" comment=""/>
+    <NAME id="T6" start="1975" end="1978" text="Paz" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <LOCATION id="T9" start="1980" end="1986" text="Madrid" TYPE="TERRITORIO" comment=""/>
+  </TAGS>
+</MEDDOCAN>
