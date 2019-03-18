@@ -31,7 +31,7 @@ class Annotation(object):
     def get_phi_spans(self):
         return self.sensitive_spans
 
-    def get_phi_spans_relaxed(self):
+    def get_phi_spans_merged(self):
         return self.sensitive_spans_merged
 
     def get_phi_spans_joins(self):
@@ -240,7 +240,7 @@ class Evaluate(object):
 
     @staticmethod
     def get_tagset_span_merged(annotation):
-        return annotation.get_phi_spans_relaxed()
+        return annotation.get_phi_spans_merged()
 
     @staticmethod
     def is_contained(content, container):
@@ -510,10 +510,10 @@ class EvaluateSubtrack2merged(Evaluate):
             gold_strict = set(self.get_tagset_span(gs_sas[doc_id]))
             sys_strict = set(self.get_tagset_span(sys_sas[doc_id]))
 
-            gold_relaxed = set(self.get_tagset_span_merged(gs_sas[doc_id]))
-            sys_relaxed = set(self.get_tagset_span_merged(sys_sas[doc_id]))
+            gold_merged = set(self.get_tagset_span_merged(gs_sas[doc_id]))
+            sys_merged = set(self.get_tagset_span_merged(sys_sas[doc_id]))
 
-            intersection = gold_strict.intersection(sys_strict).union(gold_relaxed.intersection(sys_relaxed))
+            intersection = gold_strict.intersection(sys_strict).union(gold_merged.intersection(sys_merged))
 
             fp = sys_strict - gold_strict
             for tag in sys_strict:
