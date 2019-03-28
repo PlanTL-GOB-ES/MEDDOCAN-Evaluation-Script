@@ -76,7 +76,7 @@ def get_document_dict_by_system_id(system_dirs, annotation_format):
     for d in system_dirs:
         for fn in os.listdir(d):
             if fn.endswith(".ann") or fn.endswith(".xml"):
-                sa = annotation_format(d + fn)
+                sa = annotation_format(os.path.join(d, fn))
                 documents[sa.sys_id][sa.id] = sa
 
     return documents
@@ -113,7 +113,7 @@ def evaluate(gs, system, annotation_format, subtrack, **kwargs):
 
         for filename in os.listdir(gs):
             if filename.endswith(".ann") or filename.endswith(".xml"):
-                annotations = annotation_format(gs + filename)
+                annotations = annotation_format(os.path.join(gs, filename))
                 gold_ann[annotations.id] = annotations
 
         for system_id, system_ann in sorted(get_document_dict_by_system_id(system, annotation_format).items()):
